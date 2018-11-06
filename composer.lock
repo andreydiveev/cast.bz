@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/windlace/oauth.git",
-                "reference": "d8d565946e5e562f16c5480367ec08ce048fe6c5"
+                "reference": "757fb222f653d71bc1527dc4bef938e42eb0812f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/windlace/oauth/zipball/d8d565946e5e562f16c5480367ec08ce048fe6c5",
-                "reference": "d8d565946e5e562f16c5480367ec08ce048fe6c5",
+                "url": "https://api.github.com/repos/windlace/oauth/zipball/757fb222f653d71bc1527dc4bef938e42eb0812f",
+                "reference": "757fb222f653d71bc1527dc4bef938e42eb0812f",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2018-11-06T04:41:04+00:00"
+            "time": "2018-11-06T06:35:35+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
