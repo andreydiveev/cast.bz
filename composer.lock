@@ -4,20 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e48d92b4a379c986f598b5a6f255d532",
+    "content-hash": "8b70e46cf6c8d7050e9326d9dcda7d85",
     "packages": [
+        {
+            "name": "cast/heroku",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/windlace/heroku.git",
+                "reference": "c95fa60fda6ce00227a71001074d6f36a36e09ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/windlace/heroku/zipball/c95fa60fda6ce00227a71001074d6f36a36e09ce",
+                "reference": "c95fa60fda6ce00227a71001074d6f36a36e09ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cast\\Heroku\\HerokuServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cast\\Heroku\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "For Laravel on Heroku.",
+            "keywords": [
+                "heroku",
+                "laravel"
+            ],
+            "time": "2018-11-06T04:54:51+00:00"
+        },
         {
             "name": "cast/oauth",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/windlace/oauth.git",
-                "reference": "7b0cd90599bb09ca65ad5432df8e04a73b558d17"
+                "reference": "d8d565946e5e562f16c5480367ec08ce048fe6c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/windlace/oauth/zipball/7b0cd90599bb09ca65ad5432df8e04a73b558d17",
-                "reference": "7b0cd90599bb09ca65ad5432df8e04a73b558d17",
+                "url": "https://api.github.com/repos/windlace/oauth/zipball/d8d565946e5e562f16c5480367ec08ce048fe6c5",
+                "reference": "d8d565946e5e562f16c5480367ec08ce048fe6c5",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +87,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2018-11-06T01:20:12+00:00"
+            "time": "2018-11-06T04:41:04+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
