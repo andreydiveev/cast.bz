@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cast/heroku",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/windlace/heroku.git",
-                "reference": "c95fa60fda6ce00227a71001074d6f36a36e09ce"
+                "reference": "abbe0f9bac4dfd1118482b9c0308a6015d955767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/windlace/heroku/zipball/c95fa60fda6ce00227a71001074d6f36a36e09ce",
-                "reference": "c95fa60fda6ce00227a71001074d6f36a36e09ce",
+                "url": "https://api.github.com/repos/windlace/heroku/zipball/abbe0f9bac4dfd1118482b9c0308a6015d955767",
+                "reference": "abbe0f9bac4dfd1118482b9c0308a6015d955767",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "heroku",
                 "laravel"
             ],
-            "time": "2018-11-06T04:54:51+00:00"
+            "time": "2018-11-06T06:06:15+00:00"
         },
         {
             "name": "cast/oauth",
